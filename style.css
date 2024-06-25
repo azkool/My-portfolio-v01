@@ -47,3 +47,12 @@ img {
     height: auto;
     display: block;
 }
+
+
+/*3. Container
+A container class to center content and manage the layout width.*/
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
