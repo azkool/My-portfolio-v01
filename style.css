@@ -119,6 +119,10 @@ main{
 
 
 /* Miscellenious style i.e generals */
+.image-resize{
+    width: 10rem;
+}
+
 .card-center{
     justify-content: space-between;
 }
