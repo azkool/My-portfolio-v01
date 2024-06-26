@@ -77,11 +77,16 @@ main{
     /* border-top: 3px solid #f48024; */
     border-top: 3px solid #007BFF;
 }
-
-#about{
-    
+.image{
+    width: 10rem;
+    border-radius: 30%;
+    margin-top: 1rem;
+    border: 3px solid #007BFF;
 }
-
+.about-right{
+    align-items: center;
+    justify-content: space-between;
+}
 /* Miscellenious style i.e generals */
 .flex{
     display: flex;
