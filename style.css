@@ -11,12 +11,17 @@
 /*2. Base Styles*/
 /* This define base styles for the HTML elements.*/
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: "Orbitron", sans-serif; */
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,6 +119,14 @@ main{
 
 
 /* Miscellenious style i.e generals */
+.card-center{
+    justify-content: space-between;
+}
+.title{
+    margin: 0 auto;
+    width: 30%;
+    align-items: center;
+}
 .flex{
     display: flex;
 }
