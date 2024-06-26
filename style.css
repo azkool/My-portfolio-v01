@@ -77,6 +77,9 @@ main{
     /* border-top: 3px solid #f48024; */
     border-top: 3px solid #007BFF;
 }
+
+/* About Styling start here */
+
 .image{
     width: 10rem;
     border-radius: 30%;
@@ -87,6 +90,16 @@ main{
     align-items: center;
     justify-content: space-between;
 }
+.resume{
+    background-color: #007BFF;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+    padding-left: 24px;
+}
+
+/* About Styling Ends Here */
+
+
 /* Miscellenious style i.e generals */
 .flex{
     display: flex;
