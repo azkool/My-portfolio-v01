@@ -20,8 +20,9 @@
             </div>
 
             <button class="mobile-nav-toggle" 
-            aria-controls="primary-navigation"
-            aria-expanded="false">
+                aria-controls="primary-navigation"
+                aria-expanded="false"
+                style="display: none;">
                 <span class="sr-only">
                     Menu
                 </span>
@@ -148,20 +149,22 @@
                         <h3 class="title">Contact me</h3>
                     </div>
                     <div>
-                        <div class="container">
-                            <form action="#">
-                        
-                            <label for="fname">Your Name:</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                        
-                            <label for="email">Your Email:</label>
-                            <input type="email" id="email" name="email" placeholder="YourEmail@.com">
-                        
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                        
-                            <input type="submit" value="Submit">
-                        
+                        <div class="form-container">
+                            <form action="#" class="form">
+                                <div class="form-group">
+                                    <label for="fname">Your Name:</label>
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">        
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email:</label>
+                                    <input type="email" id="email" name="email" placeholder="YourEmail@.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message:</label>
+                                    <textarea id="message" name="subject" placeholder="Write something.."
+                                        class="custom-textarea"></textarea>
+                                </div>
+                                <button type="submit" class="submit">Submit</button>
                             </form>
                         </div>
                     </div>

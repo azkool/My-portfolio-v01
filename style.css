@@ -18,9 +18,8 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: "Orbitron", sans-serif;
+    /* font-family: "Orbitron", sans-serif; */
     font-optical-sizing: auto;
-    /* font-weight: <weight>; */
     font-style: normal;
 }
 
@@ -118,6 +117,64 @@ main{
 /* About Styling Ends Here */
 
 
+/* Styling form starts*/
+.form-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.custom-textarea {
+    resize: none;
+}
+/* Styling form end */
+
+
 /* Miscellenious style i.e generals */
 .image-resize{
     width: 10rem;
@@ -134,6 +191,6 @@ main{
 .flex{
     display: flex;
 }
-.sr-only{
+/* .sr-only {
     display: none;
-}
+} */
