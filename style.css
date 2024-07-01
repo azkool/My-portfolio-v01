@@ -73,16 +73,24 @@ A container class to center content and manage the layout width.*/
     gap: 1rem;
     list-style-type: none;
 }
+header{
+    border-bottom: 3px solid #007BFF;
+    margin: 0 auto;
+    padding: 0 5px;
+}
 
-/*****Styling navbar ends here****/
+.name{
+    font-size: 2rem;
+}
+
+/*****Styling navbar ends here**********************/
 
 /* Main style */
 main{
-    /* border-top: 3px solid #f48024; */
-    border-top: 3px solid #007BFF;
+    /* border-top: 3px solid #007BFF; */
 }
 
-/* About Styling start here */
+/* About Styling start here ****************************/
 
 .image{
     width: 10rem;
@@ -116,6 +124,12 @@ main{
 }
 /* About Styling Ends Here */
 
+/* skills starts here */
+.image-resize{
+    width: 30px;
+    height: 30px;
+}
+/* skills ends here */
 
 /* Styling form starts*/
 .form-container{
@@ -174,7 +188,11 @@ button:hover {
 }
 /* Styling form end */
 
-
+/* footer styling end*/
+footer{
+    margin-left: 40%;
+}
+/* footer styling ends */
 /* Miscellenious style i.e generals */
 .image-resize{
     width: 10rem;

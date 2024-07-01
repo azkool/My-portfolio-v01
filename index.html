@@ -11,37 +11,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- Header start here----->
+    <header class="primary-header flex">
+        <div class="logo">
+            <h1><a href="index.html">azeezkola</a></h1>
+        </div>
 
+        <button class="mobile-nav-toggle" 
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+            style="display: none;">
+            <span class="sr-only">
+                Menu
+            </span>
+        </button>
+
+        <nav>
+            <ul id="primary-navigation" class="primary-navigation flex"
+                data-visible="false">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Header finish here ------>
+ <!-- Main Starts Here----------------------------->
     <div class="container">
-        <!-- Header start here----->
-        <header class="primary-header flex">
-            <div class="logo">
-                <h1><a href="index.html">azeezkola</a></h1>
-            </div>
-
-            <button class="mobile-nav-toggle" 
-                aria-controls="primary-navigation"
-                aria-expanded="false"
-                style="display: none;">
-                <span class="sr-only">
-                    Menu
-                </span>
-            </button>
-
-            <nav>
-                <ul id="primary-navigation" class="primary-navigation flex"
-                    data-visible="false">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Header finish here ------>
-
-        <!-- Main Starts Here------------>
         <main>
             <!-- about section starts here ---->
             <section id="about" class="about">
@@ -54,7 +52,7 @@
                             </h3>
                         </div>
                         <div>
-                            <h1>Azeez Abdulfatai</h1>
+                            <h1 class="name">Azeez Abdulfatai</h1>
                             <p>Software Engineer Apprentice/Intern</p>
                         </div>
                         <div >
@@ -177,7 +175,6 @@
                 </div>
             </section>
             <!---Contact me Section ends here-->
-
         </main>
         <!----Main Ends Here-------------->
     
