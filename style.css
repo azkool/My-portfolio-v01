@@ -145,6 +145,12 @@ main{
 /* skills ends here */
 
 /* Styling form starts*/
+.contact-title, .contact-me-title{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+}
 .form-container{
     background-color: #fff;
     padding: 20px;
@@ -202,8 +208,11 @@ main{
 /* Styling form end */
 
 /* footer styling end*/
-footer{
-    margin-left: 40%;
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 /* footer styling ends */
 
