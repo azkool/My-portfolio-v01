@@ -12,7 +12,7 @@
 /* This define base styles for the HTML elements.*/
 body {
     /* font-family: "Orbitron", sans-serif; */
-    line-height: 1.6;
+    line-height: 1.8;
     color: #333;
     background-color: #f4f4f4;
     margin: 0;
@@ -124,12 +124,16 @@ main{
 } */
 .more-about{
     background-color: #007BFF;
-    width: 30%;
-    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.1rem;
+    border-radius: 1.3rem;
+    width: 25%;
     margin: 0 auto;
 }
 .about-text{
-
+    font-size: 1rem;
 }
 /* About Styling Ends Here */
 
@@ -262,12 +266,64 @@ footer{
     .my-profile-pic {
        order: -1; 
     }
-    
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.01rem;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        
+    }
+    .resume-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.01rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .more-about{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0.01rem;
+    }
+    .about-text{
+        font-size: 1.1rem;
+    }
+    /* ABOUT MOBILE ENDS HERE******************************* */
+    /* PROJECTS STARTS HERE ***********************************/
+        .anti-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .project >.title{
+        margin: 0 auto;
+        width: 30%;
+        align-items: center;
+    }
+    .project >.title > h3{
+        font-size: 1.5rem;
+        margin-bottom: 0.01rem;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        
+    }
 } 
 
 /* Small Devices (Tablets, 576px to 767px) */
 @media (min-width: 576px) and (max-width: 767px) {
     
+
+    .about-text{
+        font-size: 1.2rem;
+    }
     .container{
         width: 95%;
         
@@ -277,6 +333,9 @@ footer{
 /* Medium Devices (Desktops, 768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .about-text{
+        font-size: 1.3rem;
+    }
     .container{
         width: 95%;
     }
