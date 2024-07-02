@@ -248,12 +248,21 @@ footer{
     .mobile-nav-toggle[aria-expanded="true"] {
         background-image: url(asset/image/xmark-solid.svg);
     }
-    
-    .container{
+
+    /* about */
+    section > .about-top, .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
         width: 100%;
-        max-width: 1200px;
         margin: 0 auto;
     }
+    .my-profile-pic {
+       order: -1; 
+    }
+    
 } 
 
 /* Small Devices (Tablets, 576px to 767px) */
