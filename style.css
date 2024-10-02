@@ -223,6 +223,12 @@ main{
 .primary-navigation.open {
     display: block;
 }
+.primary-navigation.collapsed {
+  display: none; /* Hide the navigation bar */
+}
+.primary-navigation.expanded{
+    display: flex;
+}
 /* *************RESPONSIVE DESIGN STARTS HERE**************************** */
 /* Extra Small Devices (Phones, 0px to 575px) */
 @media (max-width: 575px) {
