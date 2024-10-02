@@ -24,8 +24,10 @@ links.forEach(link => {
     navBar.classList.toggle('collapsed');
     // Close the navigation bar when a link is clicked
     navToggle.setAttribute("aria-expanded", false);
-    
+    navBar.classList.remove('collapsed');
+    primaryNav.setAttribute('data-visible', false);
   });
+  
 });
 
 // Time of day greeting
