@@ -13,3 +13,21 @@ navToggle.addEventListener("click", () => {
         navToggle.setAttribute('aria-expanded', false);
     }
 });
+
+// Time of day greeting
+const greeting = document.querySelector(".time-of-day");
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const currentTime = new Date();
+        const hours = currentTime.getHours();
+        console.log(hours);
+        if (hours >= 0 && hours < 12) {
+            greeting.textContent = "morning!";
+        } else if (hours >= 12 && hours < 18) {
+            greeting.textContent = "afternoon!";
+        } else if (hours >= 18 || hours < 24) {
+            greeting.textContent = "evening!";
+        }
+        
+    });
+
