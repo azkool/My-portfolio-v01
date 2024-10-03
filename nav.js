@@ -14,20 +14,15 @@ const abs = navToggle.addEventListener("click", () => {
 });
 
 // Get the navigation bar and the links inside it
-const navBar = document.querySelector('.primary-navigation');
-const links = navBar.querySelectorAll('.menu-link');
-
+const links = primaryNav.querySelectorAll('.menu-link');
 // Add a click event listener to each link
 links.forEach(link => {
   link.addEventListener('click', () => {
-    // Toggle the visibility of the navigation bar
-    navBar.classList.toggle('collapsed');
-    // Close the navigation bar when a link is clicked
-    navToggle.setAttribute("aria-expanded", false);
-    navBar.classList.remove('collapsed');
+    // as the two attribute's values are used for accessibility, and 
+    // were set as true initially, we're changing them to false here.
     primaryNav.setAttribute('data-visible', false);
+    navToggle.setAttribute("aria-expanded", false);
   });
-  
 });
 
 // Time of day greeting
